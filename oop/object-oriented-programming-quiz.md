@@ -110,9 +110,9 @@ Object-Oriented Programming (OOP) Assessment
 - Getters and setters permit different access levels.
 
 #### Q19. In context of OOP, what is association?
-- Association is a relationship where all objects have their own life cycle and there is no owner.
+- Association is a relationship where all objects have their own life cycle and there is no owner. <<-- correct
 - Association is the procecss where model elements cooperate to proide higher-level behavior.
-Association is whole/part relationship where one object is composed of one or more other objects, each of which is considered a part of the whole. <<--- picked this one, again not sure
+Association is whole/part relationship where one object is composed of one or more other objects, each of which is considered a part of the whole. 
 - Association is where all objects have their own life cycle, but there is ownerhip, and child objects can not belong to another parent object.
 
 #### Q20. How are user stories different from use cases?
@@ -144,3 +144,75 @@ Association is whole/part relationship where one object is composed of one or mo
 - Composite, Visitor, State, Prototype, and Singleton.
 - Composite, Builder, Factory Method, Prototype, and Singleton.
 - **Abstract Factory, Builder, Factory Method, Prototype, and Singleton.** <<-- correct
+
+#### Q25. In multilevel inheritence, one class inherits how many classes?
+- one class only <<-- correct
+- two classes
+- as many classes as required
+- at least two classes 
+
+#### Q26. if an object is passed by reference, the changes made in the function are reflected _______.
+- to the main object of the caller function, too <<-- correct
+- on the caller function object and also the called function object
+- on the copy of the object that is made during the pass
+- only in the local scope of the called function
+
+#### Q27. What is a method? 
+- a set of instructions designed to perform a frequently used operation within a program and return no values
+- the exact same thing as a function and subroutine <<-- correct
+- a set of variables that can change over time
+- a procedure associated with data and behaviour 
+
+### Q28. A mobile phone is made up of components such as a motherboard, camera, and sensors. The motherboard represents all the functions of a phone, the display shows the display only, and the phone is represented as a whole. Which of the following has the highest level of abstraction?
+- camera
+- display
+- motherboard
+- mobile phone <<-- correct
+
+#### Q29. Which class has the highest degree of abstraction in a multilevel inheritance relationship of five levels?
+- the class at the third level
+- **the class at the first level** <<-- correct
+- All have the same degree of abstraction.
+- the class at the second level
+
+#### Q30. In the contex of OOP, what is association?
+- Association is a whole/part relationship where one object is composed of one or more other objects, each of which is considered a part of the whole.
+- Association is where all objects have their own life cycle, but there is ownership, and child objects can not belong to another parent object.
+- Association is the process where model elements cooperate to provide higher-level behavior.
+- **Association is a relationship where all objects have their own life cycles and there is no owner.** <<-- correct
+
+#### Q31. Which is NOT one of the basic types of inheritance?
+- multilevel inheritance
+- **double inheritance** <<-- correct
+- single inheritance
+- hierarchical inheritance
+
+#### Q32. Why is code duplication so insidious?
+- The duplication uses unnecessary space.
+- **One has to maintain all the duplicates.** <<-- correct
+- Duplication can cause intellectual property concerns.
+- Duplication is easy to hide.
+
+#### Q33. When and how often is a static constructor called?
+- It is called initially when an object is created and called with every new object instance.
+- It is called when an object is destroyed and only one time.
+- **It is called initially when an object is created and only one time.** <<-- correct
+- It is created at time when the object is discarded.
+
+#### Q34. What does the code shown below demonstrate, and why?
+<pre><code>
+static void Multiply(int num1, int num2) {};
+static void Multiply(double num1, double num2, double num3) {};
+static void Multiply(float num1, float num2) {};
+</code></pre>
+
+- polymorphism, because each method can perform different task
+- method overriding, because it display the same method name, different or same parameters, and same return type
+- **method overloading, because it allows the creation of several methods with the same name, wich differ by the type of input via parameter** <<-- correct
+- method overriding, because it display the same method name, different parameters, and same return type
+
+#### Q35. What is the purpose os static constructor?
+- **to initialize all the members with static value** <<-- correct
+- to delete the static members when not required
+- to initialize the static members of class
+- to clear all the static members' initialized values

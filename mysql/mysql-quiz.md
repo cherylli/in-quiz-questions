@@ -4,10 +4,10 @@ mysql Assessment
 - [ ] The subquery is never executed. Only the main query is executed.
 - [ ] They are executed at the same time
 - [ ] the main query
-- [ ] the subquery
+- [x] the subquery
 
 #### Q2. You need to export the entire database, including the database objects, in addition to the data. Which command-line tool do you use?
-- [ ] mysqlexport
+- [x] mysqlexport
 - [ ] mysqladmin
 - [ ] mysqldump
 - [ ] mysqld
@@ -20,14 +20,14 @@ mysql Assessment
 
 #### Q4. Which option of most MySQL command-line programs can be used to get a description of the program's different options?
 - [ ] --options
-- [ ] ?
+- [x] ?
 - [ ] --help
 - [ ] -h
 
 #### Q5. MySQL uses environment variables in some of the programs and command-line operations. Which variable is used by the shell to find MySQL programs?
 - [ ] DIR
 - [ ] HOМЕ
-- [ ] PATH
+- [x] PATH
 - [ ] MYSQL_HOME
 
 #### Q6. How can you create a stored procedure in MySQL?
@@ -37,7 +37,7 @@ mysql Assessment
 2 BEGIN 
 3 END;
 ```
-- [ ] `-`
+- [x] `-`
 ```
 1 CREATE PROCEDURE P ()
 2 BEGIN 
@@ -57,7 +57,7 @@ mysql Assessment
 ```
 
 #### Q7. If you were building a table schema to store student grades as a letter (A, B, C, D, or F) which column type would be the best choice?
-- [ ] ENUM
+- [x] ENUM
 - [ ] OTEXT
 - [ ] VARCHAR
 - [ ] LONGTEXT
@@ -96,7 +96,7 @@ mysql Assessment
     7 PRIMARY KEY (employeeID) 
     8 );
 ```
-- [ ] `-`
+- [x] `-`
 ```
     1 CREATE TABLE IF NOT EXISTS employee (
     2 employee ID char(10), 
@@ -128,7 +128,7 @@ mysql Assessment
 
 #### Q12. MySQL server can operate in different SQL modes, depending on the value of the sql_mode system variable. Which mode changes syntax and behavior to conform more closely to standard SQL?
 - [ ] TRADITIONAL
-- [ ] ANSI
+- [x] ANSI
 - [ ] MSSQL
 - [ ] STRICT
 
@@ -142,16 +142,16 @@ mysql Assessment
 - [ ] INFO table;
 - [ ] SHOW table;
 - [ ]  STRUCTURE table;
-- [ ]  DESCRIBE table;
+- [x]  DESCRIBE table;
 
 #### Q15. MySQL uses security based on_____for all connections, queries, and other operations that users can attempt to perform.
-- [ ]  administrator schema
+- [x]  administrator schema
 - [ ] encrypted algorithms
 - [ ] user settings
 - [ ] access control lists
 
 #### Q16. Which MySQL command modifies data records in a table?
-- [ ] UPDATE
+- [x] UPDATE
 - [ ] MODIFY
 - [ ] CHANGE
 - [ ] ALTER
@@ -159,23 +159,23 @@ mysql Assessment
 #### Q17. What is the best type of query for validating the format of an email address in a MySQL table?
 - [ ] a SQL query using partitions
 - [ ] a SQL query using IS NULL
-- [ ] a SQL query using a regular expression
+- [x] a SQL query using a regular expression
 - [ ] a SQL query using LTRIM Or RTRIM
 
 #### Q18. In MySQL, queries are always followed by what character?
 - [ ] line break
 - [ ] colon
-- [ ] semicolon
+- [x] semicolon
 - [ ] period
 
 #### Q19. How can you remove a record using MySQL?
 - [ ] DELETE
-- [ ] DELETE FROM
+- [x] DELETE FROM
 - [ ] REMOVE
 - [ ] REMOVE FROM
 
 #### Q20. Which choice is NOT a statement you would use to filter data?
-- [ ] GROUP_BY
+- [x] GROUP_BY
 - [ ] WHERE
 - [ ] LIMIT
 - [ ] LIKE
@@ -183,7 +183,7 @@ mysql Assessment
 #### Q21. What does the following SQL statement return?
   `SELECT * FROM Employees WHERE EmployeeName LIKE 'a%'`
 - [ ] It records in the Employees table where the value in the EmployeeName column doesn't have an "a".
-- [ ] It records in the Employees table where the value in the EmployeeName column starts with "a".
+- [x] It records in the Employees table where the value in the EmployeeName column starts with "a".
 - [ ] It records in the Employees table where the value in the EmployeeName column has an "a".
 - [ ] It records in the Employees table where the value in the EmployeeName column ends with "a".
 
@@ -191,29 +191,29 @@ mysql Assessment
 - [ ] a SQL query
 - [ ] a SQL statement
 - [ ] a database
-- [ ] a table
+- [x] a table
 
 #### Q23. How does MySQL differ from SQL?
 - [ ] SQL is a standard language for retrieving and manipulating data from structured databases. MySQL is a nonrelational database management system that is used to manage SQL databases.
-- [ ] SQL is a standard language for retrieving and manipulating data from structured databases. MySQL is a relational database management system that is used to manage SQL databases.
+- [x] SQL is a standard language for retrieving and manipulating data from structured databases. MySQL is a relational database management system that is used to manage SQL databases.
 - [ ] They are not different. MySQL and SQL refer to the same thing.
 - [ ] My SQL is a language, and SQL is a software application.
 
 #### Q24. If you need to order a table of movies by name, which query will work?
 - [ ] SELECT * FROM movies GROUP BY name
-- [ ] SELECT * FROM movies ORDER BY name
+- [x] SELECT * FROM movies ORDER BY name
 - [ ] SELECT * FROM movies ORDER TABLE by name
 - [ ] SELECT * FROM movies FILTER BY name
 
 #### Q25. A trigger is a database object that is associated with a table, and that activates when a particular event occurs for the table. Which three events are these?
-- [ ] INSERT, UPDATE, DELETE
+- [x] INSERT, UPDATE, DELETE
 - [ ] CREATE, ALTER, DROP
 - [ ] OPEN, FETCH, CLOSE
 - [ ] DECLARE, SET, SELECT
 
 #### Q26. You are working with very large tables in your database. Which SQL clause do you use to prevent exceedingly large query results?
 - [ ] UNIQUE
-- [ ] LIMIT
+- [x] LIMIT
 - [ ] DISTINCT
 - [ ] CONSTRAINT
 
@@ -221,10 +221,10 @@ mysql Assessment
 - [ ] 25
 - [ ] 990
 - [ ] 0
-- [ ] 3306
+- [x] 3306
 
 #### Q28. How can you filter duplicate data while retrieving records from a table?
-- [ ] DISTINCT
+- [x] DISTINCT
 - [ ] WHERE
 - [ ] LIMIT
 - [ ] AS
@@ -233,23 +233,23 @@ mysql Assessment
 - [ ] They both refer to the same operation of deleting the table completely.
 - [ ] They both refer to the same operation of clearing the table, but keeping its definition intact.
 - [ ] TRUNCATE deletes table completely, removing its definition as well. DROP clears the table but does not delete the definition.
-- [ ] DROP deletes table completely, removing its definition as well. TRUNCATE clears the table but does not delete the definition.
+- [x] DROP deletes table completely, removing its definition as well. TRUNCATE clears the table but does not delete the definition.
 
 #### Q30. How do you select every row in a given table named "inventory"?
 - [ ] SELECT all FROM inventory;
 - [ ] FROM inventory SELECT all;
 - [ ] FROM inventory SELECT *;
-- [ ] SELECT * FROM inventory;
+- [x] SELECT * FROM inventory;
 
 #### Q31. In an efficiently designed relational database, what does every table have?
 - [ ] set of triggers
 - [ ] sequential id field
 - [ ] minimum of three columns
-- [ ] primary key
+- [x] primary key
 
 #### Q32. MySQL option files provide a way to specify commonly used options so that they need not be entered on the command line each time you run a program. What is another name for the option files?
 - [ ] variable settings
-- [ ] configuration files
+- [x] configuration files
 - [ ] help files
 - [ ] default settings
 
@@ -257,4 +257,28 @@ mysql Assessment
 - [ ] storage engine
 - [ ] user accounts
 - [ ] grant tables
-- [ ] data directory
+- [x] data directory
+
+#### Q34. You need to export the data in the customers table into a CSV file, with columns headers in the first row. Which clause do you add to your MySQL command? 
+- [ ] JOIN
+- [ ] WITH HEADERS
+- [x] UNION
+- [ ] WITH COLUMNS
+
+#### Q35. One form of backup, replication, enables you to maintain identical data on multiple servers, as a ___ configuration. 
+- [ ] remote-local
+- [ ] parent-child
+- [x] master-slave
+- [ ] logical-physical
+
+#### Q36. What is the requirement for using a subquery in the SELECT clause? 
+- [ ] the subquery must use an aggregate function.
+- [ ] the subquery must refer to the same table as the main query.
+- [ ] the subquery must return a single value.
+- [ ] the subquery must return at least one value.
+
+#### Q37. Each time MySQL is upgraded, it is best to execute mysql_upgrade, which looks for incompatibilities with the upgraded MySQL server. What does this command do, upon finding a table with a possible incompatibility? 
+- [?] it performs a table check and, if problems are found, attempts a table repair.
+- [ ] it stops and notifies the server administrator that the upgrade cannot complete until the incompatibility issue are resolved.
+- [ ] it provides a full report of the table specifications and the incompatibilities to the server administrator.
+- [ ] it performs a table check and, if problems are found, displays the information for the server administrator to take action.
